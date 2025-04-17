@@ -6,6 +6,7 @@ from concurrent.futures import ThreadPoolExecutor
 import urllib3
 import json
 import base64
+import os
 import re
 
 os.system("clear")
