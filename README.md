@@ -1,7 +1,7 @@
 # **authscope.py**
 
 ## **Descrição**
-O script `authscope.py` rwaliza análise e exploração de cabeçalhos HTTP, cookies e tokens JWT em aplicações web. Seu objetivo é identificar e explorar falhas críticas em mecanismos de autenticação e autorização, como:
+O script `authscope.py` realiza análise e exploração de cabeçalhos HTTP, cookies e tokens JWT em aplicações web. Seu objetivo é identificar e explorar falhas críticas em mecanismos de autenticação e autorização, como:
 
 - Tokens JWT inseguros (alg:none, segredos fracos, permissões elevadas).
 - Vulnerabilidades em cookies (session fixation, path traversal, serialização insegura).
