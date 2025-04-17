@@ -8,6 +8,8 @@ import json
 import base64
 import re
 
+os.system("clear")
+
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 console = Console()
 
