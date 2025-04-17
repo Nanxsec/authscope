@@ -228,8 +228,8 @@ if __name__ == "__main__":
     import sys
 
     if len(sys.argv) < 2:
-        console.print("[yellow]Uso:[/] python headers_validator.py alvo.com")
-        console.print("[yellow]Ou:[/] python headers_validator.py targets.txt")
+        console.print("[yellow]Uso:[/] python authscope.py alvo.com")
+        console.print("[yellow]Ou:[/] python authscope.py targets.txt")
     else:
         arg = sys.argv[1]
         if arg.endswith(".txt"):
